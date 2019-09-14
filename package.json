@@ -1,20 +1,26 @@
 {
-  "name": "20171122_rxjs",
+  "name": "noway_1711_rxjs",
   "version": "1.0.0",
   "description": "",
+  "license": "SEE LICENSE IN <README.md>",
   "scripts": {
-    "start": "webpack-dev-server"
+    "start": "webpack-dev-server",
+    "mod-node-path": "node node_modules/webpack/div/webpack.js"
   },
-  "author": "eggp",
+  "author": "noway",
   "devDependencies": {
-    "@types/node": "^8.0.53",
-    "awesome-typescript-loader": "^3.4.0",
-    "typescript": "~2.3.3",
-    "webpack": "^3.8.1",
-    "webpack-dev-server": "^2.9.4"
+    "@types/node": "^12.7.5",
+    "awesome-typescript-loader": "^5.2.1",
+    "typescript": "~3.6.3",
+    "webpack": "^4.40.2",
+    "webpack-dev-server": "^3.8.0"
   },
   "dependencies": {
-    "rxjs": "^5.4.2",
-    "striptags": "^3.1.0"
+    "rxjs": "^6.5.3",
+    "striptags": "^3.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/noway-s-studies/na_1711_AA"
   }
 }
