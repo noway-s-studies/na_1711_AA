@@ -13,6 +13,7 @@ let createLoggerHTMLElement = (logger: HTMLDivElement) => {
     document.body.appendChild(logger);
     return logger;
 };
+
 let registerConsole2 = (logger: HTMLDivElement) => {
     let _console: Console2Interface = {
         extendedLog: (log: string, color: string) => {
@@ -25,7 +26,6 @@ let registerConsole2 = (logger: HTMLDivElement) => {
 };
 
 export function replaceConsoleLog() {
-
     let logger: HTMLDivElement = document.getElementById('log') as HTMLDivElement;
     if (logger == null) {
         logger = createLoggerHTMLElement(logger);
